@@ -47,11 +47,13 @@ Vulnerability #2: Cross-Site Scripting (XSS)
 ## Red
 
 Vulnerability #1:Insecure Direct Object Reference (IDOR)
+
 In the find a salesperson page after changing the ID number to 10, access was granted to a site which is not open to public before hand.
 
 <img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/salespersonid.gif" width="600">
 
 Vulnerability #2:Cross-Site Request Forgery (CSRF)
+
 Edited the CSRF token in the form, this should have made the form invalid. However, the form submission went through despite it being edited. 
 <img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/forgered.gif" width="600">
 
