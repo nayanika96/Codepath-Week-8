@@ -27,7 +27,7 @@ Vulnerability #1: SQL Injection (SQLi
 Vulnerability #2 Session Hijacking/Fixation
 1. Logged in to the site on one a Google Chrome browser and opened the same site on a Safari browser without logging in on another browser. Using the tool given by codepath  copied the PHPSESSIONID of the page which was logged in and pasted the same PHPSESSIONID on the other browser in which the site was not logged in. 
 2.This resulted in the site on Safari being automatically logged in to without entering the username and password and just pasting the PHPSESSIONID 
-<img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/sessionhijack.gif" width="800">
+<img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/sessionhijacking.gif" width="800">
 
 
 ## Green
