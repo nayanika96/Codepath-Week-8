@@ -26,7 +26,6 @@ Vulnerability #1: SQL Injection (SQLi
 
 Vulnerability #2 Session Hijacking/Fixation
 1. Logged in to the site on one a Google Chrome browser and opened the same site on a Safari browser without logging in on another browser. Using the tool given by codepath  copied the PHPSESSIONID of the page which was logged in and pasted the same PHPSESSIONID on the other browser in which the site was not logged in. 
-
 2.This resulted in the site on Safari being automatically logged in to without entering the username and password and just pasting the PHPSESSIONID 
 <img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/sessionhijacking.gif" width="600">
 
@@ -48,12 +47,12 @@ Vulnerability #2: Cross-Site Scripting (XSS)
 ## Red
 
 Vulnerability #1:Insecure Direct Object Reference (IDOR)
-1. In the find a salesperson page after changing the ID number to 10, access was granted to a site which is not open to public before hand.
+In the find a salesperson page after changing the ID number to 10, access was granted to a site which is not open to public before hand.
 
 <img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/salespersonid.gif" width="600">
 
 Vulnerability #2:Cross-Site Request Forgery (CSRF)
-1. Edited the CSRF token in the form, this should have made the form invalid. However, the form submission went through despite it being edited. 
+Edited the CSRF token in the form, this should have made the form invalid. However, the form submission went through despite it being edited. 
 <img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/forgered.gif" width="600">
 
 ## Notes
