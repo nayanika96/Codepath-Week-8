@@ -55,6 +55,7 @@ In the find a salesperson page after changing the ID number to 10, access was gr
 Vulnerability #2:Cross-Site Request Forgery (CSRF)
 
 Edited the CSRF token in the form, this should have made the form invalid. However, the form submission went through despite it being edited. 
+
 <img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/forgered.gif" width="600">
 
 ## Notes
