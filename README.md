@@ -17,7 +17,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection (SQLi
-1. The vulnerability was present on the salesperson page. Edited the URL of the page adding SLEEP(5)=0--' after the id
+1. The vulnerability was present on the salesperson page. Edited the URL of the page adding ' OR SLEEP(5)=0--' after the id
  https://35.224.59.192/blue/public/salesperson.php?id=' OR SLEEP(5)=0--'
 2. This caused the site to stall and delay of 5 seconds
 
@@ -25,8 +25,8 @@ Vulnerability #1: SQL Injection (SQLi
 
 
 Vulnerability #2 Session Hijacking/Fixation
-1. Logged in to the site on one a Google Chrome browser and opened the same site on a Safari browser without logging in on another browser. Using the tool given by codepath  copied the PHPSESSIONID of the page which was logged in and pasted the same PHPSESSIONID on the other browser in which the site was not logged in. 
-2.This resulted in the site on Safari being automatically logged in to without entering the username and password and just pasting the PHPSESSIONID 
+1. Logged in to the site on a Google Chrome browser and opened the same site on a Safari browser without logging in on the second browser. Using the tool given by codepath  copied the PHPSESSIONID of the page which was logged in and pasted the same PHPSESSIONID on the other browser in which the site was not logged in. This resulted in the site on Safari being automatically logged in to without entering the username and password and just pasting the PHPSESSIONID 
+
 <img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/sessionhijacking.gif" width="600">
 
 
