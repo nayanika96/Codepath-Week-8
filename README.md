@@ -42,7 +42,7 @@ Vulnerability #2: Cross-Site Scripting (XSS)
 1. In the contact section, posted this <script>alert("Alert!");</script> as a feedback comment
 2. After logging in with the username and password, the submitted form section had the javascript alert pops up
 
-<img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/crosssitegreenfinal.gif" width="600">
+<img src="https://github.com/nayanika96/Codepath-Week-8/blob/master/crossitegreenfinal.gif" width="600">
 
 ## Red
 
